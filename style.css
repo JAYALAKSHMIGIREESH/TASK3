@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 120px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-1 {
+    border-radius: 0%;
+    border: 2px solid white !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 170px;
+    height: 50px;
+}
+
+.btn-1:hover {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    transition: all 1s;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    left: 0;
+    right: 0;
+}
+
+.navbar .icons i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    padding: 0;
+    margin: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .nav-item .nav-link.active {
+    color: #98afe0;
+    border-bottom: 1px solid #98afe0;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #98afe0;
+    border-bottom: 1px solid #98afe0;
+    transition: all 1s;
+}
+
+/* .hero-sec {
+    height: 700px;
+} */
+
+.hero-sec .carousel-caption {
+    bottom: 35% !important;
+}
+
+.hero-sec .carousel-caption h5 {
+    font-size: 14px;
+}
+
+.hero-sec .carousel-caption h2 {
+    font-size: 100px;
+    font-family: "Lora", serif;
+}
+
+.hero-sec .carousel-caption h5 {
+    font-size: 14px;
+}
+
+.hero-sec .carousel-caption h6 {
+    border-bottom: 2px solid white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+
+.sec-1 {
+    margin-top: 110px;
+}
+
+.sec-1 .img-sec img {
+    width: 100%;
+}
+
+.sec-1 h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #9fc4ce;
+    text-align: center;
+}
+
+.sec-1 h2 {
+    font-size: 44px;
+    font-family: "Lora", serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec-1 p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-3 {
+    padding: 16px 24px;
+    font-size: 13px;
+    background-color: #9fc4ce;
+    border: 2px solid #9fc4ce;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-3:hover {
+    background-color: white;
+    color: #9fc4ce;
+    transition: all 1s;
+}
+
+.sec-2 {
+    margin-top: 100px;
+}
+
+.sec-2 h6 {
+    letter-spacing: 2px;
+    color: #9fc4ce;
+    text-align: center;
+}
+
+.sec-2 h2 {
+    font-size: 44px;
+    font-family: "Lora", serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec-2 .text {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.sec-2 .cnt-sec {
+    margin-top: 30px;
+}
+
+.sec-2 .cnt-sec .nav-item .nav-link {
+    color: rgb(73, 72, 72) !important;
+    font-weight: 500;
+}
+
+.sec-2 .cnt-sec .nav-item .nav-link.active {
+    color: #9fc4ce !important;
+}
+
+.sec-2 .cnt-sec .nav-item .nav-link:hover {
+    color: #9fc4ce !important;
+}
+
+.sec-2 .card-1 {
+    border-bottom: 1px dotted #3a3a3a;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.sec-2 h4 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Lora", serif;
+}
+
+.sec-2 p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 120px;
+    padding-top: 85px;
+    padding-bottom: 40px;
+}
+
+
+
+.sec-4 p {
+    margin-top: 20px;
+    color: #a7a5a5;
+}
+
+.sec-4 h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.sec-4 .nav-link {
+    padding: 0 !important;
+    margin-bottom: 16px;
+}
+
+.sec-4 .nav-item.active {
+
+    color: #a7a5a5 !important;
+}
+
+.sec-4 .nav-link {
+    color: #a7a5a5 !important;
+
+}
+
+.sec-5 h6 {
+    background-color: black;
+    font-size: 16px;
+
+}
+
+.sec-6 {
+    margin-top: 40px;
+}
+
+.sec-6 h6 {
+    color: #585858 !important;
+    font-size: 13px;
+}
+
+.sec-6 .icons i {
+    color: #a7a5a5 !important;
+}
